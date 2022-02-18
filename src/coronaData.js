@@ -13,6 +13,7 @@ export default function CoronaData() {
 
     return (
         <div className='container'>
+            {/* test */}
             <div className='contenu'>
                 <div className='card'>
                     <div className='infos'>
