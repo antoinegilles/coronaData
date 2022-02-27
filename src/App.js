@@ -118,9 +118,8 @@ export default function App() {
         </Drawer>
 
         <Routes>
-
-          <Route exact path="/" element={<CoronaData />} />
-          <Route exact path="/region" element={<CoronaDataRegion listeDepartement={listeDepartement} data={dataDepartements} />} />
+          <Route exact path="/coronadata" element={<CoronaData />} />
+          <Route exact path="/coronadata/region" element={<CoronaDataRegion listeDepartement={listeDepartement} data={dataDepartements} />} />
         </Routes>
       </Router>
     </div>
