@@ -15,21 +15,29 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
-.imgLocation{
-    padding-top: 2.2em;
-    /* tests d sdf*/
-}
+
 
 .chiffre {
     padding-top: 1em;
     font-size: 2em;
 }
-
-.titleOne{
+.label{
+    color: white !important;
+}
+.titleOne {
     display: flex;
     justify-content: center;
+    margin-top: 0.2em;
 }
 
+.contentRegionHeader{
+    justify-content: center;
+    display: flex;
+}
+.selectRegion{
+margin-top: 0.3em;
+margin-left: 1em;
+}
 .libelle {
     padding-top: 0em;
 }
@@ -38,10 +46,19 @@ code {
     background-color: rgb(70, 70, 70) !important;
 }
 
+.imgLocation {
+    width: 2.5em;
+    margin-top: 0.3em;
+}
+
 .navBar {
     background-color: white;
 }
 
+.dateDuJour{
+    margin-bottom: 1em;
+    text-align: center;
+}
 .contenu {
     text-align: center;
     display: flex;
@@ -86,7 +103,7 @@ code {
 
 /* ####### Titre ###### */
 .titre {
-    font-size: 3em;
+    font-size: 1.5em;
     text-align: center;
     text-shadow: 5px 5px black;
 }
