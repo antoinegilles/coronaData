@@ -120,8 +120,7 @@ export default function App() {
         <Routes>
 
           <Route  path="/" element={<CoronaData />} />
-          <Route  path="/coronadata" element={<CoronaData />} />
-          <Route path="/coronadata/region" element={<CoronaDataRegion listeDepartement={listeDepartement} data={dataDepartements} />} />
+          <Route path="/region" element={<CoronaDataRegion listeDepartement={listeDepartement} data={dataDepartements} />} />
         </Routes>
       </Router>
     </div>
