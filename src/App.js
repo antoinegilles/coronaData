@@ -108,7 +108,7 @@ export default function App() {
       </AppBar>
       <Router>
 
-        {/* Menu */}
+        {/* Menu . */}
         <Drawer
           anchor={'left'}
           open={state['left']}
