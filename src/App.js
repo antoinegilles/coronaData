@@ -21,10 +21,10 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 // Routeur
 import {
-  BrowserRouter as Router,
   Route,
   Routes,
-  Link
+  Link,
+  HashRouter
 } from "react-router-dom";
 
 export default function App() {
@@ -106,7 +106,7 @@ export default function App() {
           </Typography>
         </Toolbar>
       </AppBar>
-      <Router>
+      <HashRouter>
 
         {/* Menu */}
         <Drawer
@@ -122,7 +122,7 @@ export default function App() {
           <Route  path="/" element={<CoronaData />} />
           <Route path="/region" element={<CoronaDataRegion listeDepartement={listeDepartement} data={dataDepartements} />} />
         </Routes>
-      </Router>
+      </HashRouter>
     </div>
   );
 }
