@@ -108,7 +108,7 @@ export default function App() {
       </AppBar>
       <Router>
 
-        {/* Menu . */}
+        {/* Menu */}
         <Drawer
           anchor={'left'}
           open={state['left']}
@@ -118,8 +118,9 @@ export default function App() {
         </Drawer>
 
         <Routes>
-          <Route exact path="/coronadata" element={<CoronaData />} />
-          <Route exact path="/coronadata/region" element={<CoronaDataRegion listeDepartement={listeDepartement} data={dataDepartements} />} />
+
+          <Route  path="/" element={<CoronaData />} />
+          <Route path="/region" element={<CoronaDataRegion listeDepartement={listeDepartement} data={dataDepartements} />} />
         </Routes>
       </Router>
     </div>
